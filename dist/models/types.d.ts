@@ -59,7 +59,8 @@ export declare enum MediaFormat {
     MUSIC = "MUSIC",
     MANGA = "MANGA",
     NOVEL = "NOVEL",
-    ONE_SHOT = "ONE_SHOT"
+    ONE_SHOT = "ONE_SHOT",
+    UNKNOWN = "UNKNOWN"
 }
 export interface IAnimeInfo extends IAnimeResult {
     malId?: number | string;

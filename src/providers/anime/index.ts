@@ -1,5 +1,6 @@
 import Gogoanime from './gogoanime';
 import NineAnime from './9anime';
+import Jimov from './animeflv';
 import AnimePahe from './animepahe';
 import Zoro from './zoro';
 import AnimeFox from './animefox';
@@ -14,6 +15,7 @@ import AnimeUnity from './animeunity';
 export default {
   Gogoanime,
   NineAnime,
+  Jimov,
   AnimePahe,
   Zoro,
   AnimeFox,

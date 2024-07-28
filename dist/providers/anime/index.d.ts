@@ -1,5 +1,6 @@
 import Gogoanime from './gogoanime';
 import NineAnime from './9anime';
+import Jimov from './animeflv';
 import AnimePahe from './animepahe';
 import Zoro from './zoro';
 import AnimeFox from './animefox';
@@ -13,6 +14,7 @@ import AnimeUnity from './animeunity';
 declare const _default: {
     Gogoanime: typeof Gogoanime;
     NineAnime: typeof NineAnime;
+    Jimov: typeof Jimov;
     AnimePahe: typeof AnimePahe;
     Zoro: typeof Zoro;
     AnimeFox: typeof AnimeFox;

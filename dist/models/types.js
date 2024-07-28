@@ -13,6 +13,7 @@ var MediaFormat;
     MediaFormat["MANGA"] = "MANGA";
     MediaFormat["NOVEL"] = "NOVEL";
     MediaFormat["ONE_SHOT"] = "ONE_SHOT";
+    MediaFormat["UNKNOWN"] = "UNKNOWN";
 })(MediaFormat || (exports.MediaFormat = MediaFormat = {}));
 var StreamingServers;
 (function (StreamingServers) {
