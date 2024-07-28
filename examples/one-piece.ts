@@ -1,10 +1,10 @@
-import { ANIME } from "..";
+import { ANIME } from "../dist";
 
 const main = async () => {
   // Create a new instance of the Gogoanime provider
-  const gogoanime = new ANIME.Gogoanime();
+  const jimov = new ANIME.Jimov();
   // Search for an anime. In this case, "One Piece"
-  const results = await gogoanime.search("One Piece");
+  const results = await jimov.fetchAnimeInfo("naruto-shippuden-hd");
   // print the results
   console.log(results);
 };

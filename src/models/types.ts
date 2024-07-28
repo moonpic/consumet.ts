@@ -67,6 +67,7 @@ export enum MediaFormat {
   MANGA = 'MANGA',
   NOVEL = 'NOVEL',
   ONE_SHOT = 'ONE_SHOT',
+  UNKNOWN = 'UNKNOWN',
 }
 
 export interface IAnimeInfo extends IAnimeResult {
